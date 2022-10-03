@@ -1,11 +1,11 @@
-const abcd = document.getElementById('menu-icon')
-const efjh = document.getElementById('menu')
+const menuIcon = document.getElementById('menu-icon')
+const menu = document.getElementById('menu')
 
 abcd.addEventListener("click", () =>{
-   if(efjh.className === 'hidden'){
-      efjh.classList.remove('hidden')
+   if(menu.className === 'hidden'){
+      menu.classList.remove('hidden')
    }
    else{
-      efjh.classList.add('hidden')
+      menu.classList.add('hidden')
    }
 })
